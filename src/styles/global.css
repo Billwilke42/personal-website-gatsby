@@ -1,0 +1,120 @@
+.profile-pic {
+  height: 60vh;
+  margin-left: 35px;
+  margin-right: -35px;
+  margin-top: 35px;
+  margin-bottom: -35px;
+  border-radius: 5px;
+}
+
+.profile-pic2{
+  height: 60vh;
+  margin-left: -35px;
+  margin-right: 35px;
+  margin-top: -35px;
+  margin-bottom: 35px;
+  border-radius: 5px;
+  /* margin-top: 5vh;
+  margin-left: 5vw; */
+}
+
+.overlap-img2 {
+  background-color: #155e63;
+  border-radius: 5px;
+}
+
+.body {
+  height: 100vh;
+  width: 100vw;
+}
+
+footer {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #155e63;
+  color: #eae7e7;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  z-index: -1;
+  height: 100vh;
+  background-image: linear-gradient(157deg, rgba(21,94,99,1) 23%, rgba(118,179,157,1) 100%);
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% 100%,
+    0 calc(100% - 5vw)
+  );
+}
+
+.bottom-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.aboutme-container {
+  width: 40vw;
+  display: inline-block;
+  /* justify-content: center; */
+  /* align-content: center; */
+  /* flex-direction: column; */
+  /* display: flex; */
+  /* padding: 100px; */
+  /* flex-wrap: wrap; */
+  /* margin-left: 5vw; */
+}
+
+.overlap-img {
+  background-color: #155e63;
+  border-radius: 5px;
+
+}
+
+
+
+.introduction-container {
+  font-family: 'Lato', sans-serif;
+  height: fit-content;
+  width: 35vw;
+  padding: 20px;
+  font-size: xx-large;
+  /* background-color: #f9f8eb; */
+  /* border-radius: 5px; */
+  /* box-shadow: 10px 10px 10px black; */
+}
+
+.about-me-title {
+  /* text-transform: uppercase; */
+  font-size: xx-large;
+  margin-bottom: 1px;
+  margin-top: 0;
+  /* color: #eae7e7; */
+  color: #155e63;
+}
+
+hr {
+  height: 3px;
+  background-color: #eae7e7;
+  border: none;
+}
+
+.about-me-text {
+  font-size: x-large;
+  /* margin-top: 50px; */
+  margin: 0;
+}
+
+.introduction,
+.introduction-tag {
+  color: #eae7e7;
+}
