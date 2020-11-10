@@ -4,6 +4,7 @@ import React from "react"
 // import profilepic2 from '../images/profilepic2.jpeg'
 import Layout from "../components/layout"
 import Image from "../components/image"
+import Image2 from '../components/image2'
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -16,11 +17,13 @@ const IndexPage = () => (
           <h3 className='introduction-tag'> A Software Engineer based in Denver, CO.</h3>
         </div>
         <div className='overlap-img'>
+          <Image />
           {/* <img src={`${profilepic}`} alt='headshot' className='profile-pic'></img> */}
         </div>
       </section>
       <section className='bottom-container'>
         <div className='overlap-img2'>
+          <Image2 />
           {/* <img src={`${profilepic2}`} alt='headshot2' className='profile-pic2'></img> */}
         </div>
         <section className='aboutme-container'>
